@@ -16,6 +16,8 @@ Because these attributes may not be required in all situations (such as **@dur**
 
 The default values for **@pname** and **@oct** conform to the Acoustical Society of America representation for pitch name; that is, the letters A - G, albeit in lower case, and the numbers 0 - 9.
 
+{% include verovio example="octave_numbers.mei" encoding=false %}
+
 The usual CMN-specific values for **@dur** are:
 
 {:.gloss}
