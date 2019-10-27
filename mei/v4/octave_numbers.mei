@@ -35,8 +35,8 @@
 	    <measure n="1">
 	      <staff n="1">
                 <layer n="1">
-                  <note xml:id="m1_s1_e1" pname="c" oct="0" dur="4"/>
-                  <note xml:id="m1_s1_e2" pname="c" oct="1" dur="4"/>
+                  <note xml:id="m1_s1_e1" pname="c" oct="2" dur="4"/>
+                  <note xml:id="m1_s1_e2" pname="c" oct="2" dur="4"/>
                   <note xml:id="m1_s1_e3" pname="c" oct="2" dur="4"/>
 		  <note xml:id="m1_s1_e3" pname="c" oct="3" dur="4"/>
                 </layer>
@@ -45,6 +45,8 @@
 	      <dir tstamp="2">C1</dir>
 	      <dir tstamp="3">C2</dir>
 	      <dir tstamp="4">C3</dir>
+	      <octave  tstamp="1" tstamp2="1.5" dis="15" dis.place="below"></octave>
+	      <octave  tstamp="2" tstamp2="2.5" dis="8" dis.place="below"></octave>
 	    </measure>
 
           <scoreDef>
@@ -59,27 +61,30 @@
                   <note xml:id="m1_s1_e1" pname="c" oct="4" dur="4"/>
                   <note xml:id="m1_s1_e2" pname="c" oct="5" dur="4"/>
                   <note xml:id="m1_s1_e3" pname="c" oct="6" dur="4"/>
-		  <note xml:id="m1_s1_e3" pname="c" oct="7" dur="4"/>
+		  <note xml:id="m1_s1_e3" pname="c" oct="6" dur="4"/>
                 </layer>
 	      </staff>
 	      <dir tstamp="1">C4</dir>
 	      <dir tstamp="2">C5</dir>
 	      <dir tstamp="3">C6</dir>
 	      <dir tstamp="4">C7</dir>
+	      <octave  tstamp="4" tstamp2="4.5" dis="8" dis.place="above"></octave>
 	    </measure>
 
 
 	    <measure n="3">
 	      <staff n="1">
                 <layer n="1">
-                  <note xml:id="m1_s1_e1" pname="c" oct="8" dur="4"/>
-                  <note xml:id="m1_s1_e2" pname="c" oct="9" dur="4"/>
+                  <note xml:id="m1_s1_e1" pname="c" oct="6" dur="4"/>
+                  <note xml:id="m1_s1_e2" pname="c" oct="7" dur="4"/>
                 </layer>
 	      </staff>
 	      <dir tstamp="1">C8</dir>
 	      <dir tstamp="2">C9</dir>
+	      <octave  tstamp="1" tstamp2="1.5" dis="15" dis.place="above"></octave>
+	      <octave  tstamp="2" tstamp2="2.5" dis="8" dis.place="above"></octave>
 	    </measure>	    
-	  
+	    
           </section>
         </score>
       </mdiv>
